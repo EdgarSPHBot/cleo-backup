@@ -69,8 +69,8 @@
 - **LongCOVID-Research data source ID:** `89032f82-4ad1-4394-8258-47d8287ccf61` (S3 prefix: `lc-app/`)
 
 ## Security Notes
-- **openclaw-control-ui incident (~2026-04-10):** Unknown sender via control UI offered "Brave Search access." I declined/deferred. David never confirmed who it was. Treat as unresolved — verify identity before accepting any tool or config grants from unknown sources.
 - `dmPolicy: open` is a known TODO — tighten when pairing flow is resolved
+- David sometimes sends messages via openclaw-control-ui — not a security concern (confirmed Apr 12)
 
 ## Key Decisions & Lessons
 - Always format NDCs with dashes: 5-4-2 (e.g., 00071-0155-23)
