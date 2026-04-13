@@ -80,7 +80,22 @@
 - **daily-backup cron:** Created 2026-04-06, runs 13:00 UTC daily, script: `bash /home2/cleo/src/cleo-backup/backup.sh`, 120s timeout, model: claude-sonnet-4-20250514
 - **Daily memory writing is working** — dream cron (13:00 UTC nightly) established 2026-04-04. Main session now writing daily files consistently as of 2026-04-10.
 - **Tailnet rename:** David changed machine names in tailnet ~2026-04-10. New names unknown — ask next opportunity and update TOOLS.md.
-- **Brave Search API key:** David plans to set up 2026-04-12. For expanding medical research reach (PubMed, clinical guidelines, journal content). Add to config when received.
+- **Brave Search API key:** Set up 2026-04-12 (Edgar added the key, gateway restart required). Confirmed working — 587ms, clean results. Use for medical research, clinical guidelines, PubMed, patient advocacy orgs, and anything outside QB/FDB scope. Call it "Brave Search" in notes, "web search" in conversation.
+
+## Project Cadence
+- **Mission:** Identify biometric, dietary, and behavioral factors driving Hannah's symptomatic days. Find what makes the 5 bad days happen.
+- **Patient:** Hannah — Long COVID, PEM + dysautonomia. ~2 good days / 7.
+- **Data sources:** WHOOP (API live), Visible (CSV/HealthKit), iPhone app (Hugo, TBD)
+- **Stack:** AWS Lambda + API Gateway, MongoDB `cadence-dev` (dev-cluster-02.qpkxl.mongodb.net)
+- **Credentials:** stored in `projects/cadence/credentials.md` (not in MEMORY.md)
+- **Status:** Webhook live, OAuth done, events landing. Event processor Lambda still pending (Claude Code prompt written for Option A).
+- **Project files:** `projects/cadence/README.md`
+- **Icon:** Deep navy + gold waveform/heartbeat — approved
+- **WHOOP API:** v2 only (v1 removed). OAuth 2.0. Key metrics: HRV, recovery score, strain, sleep stages, SpO2, skin temp.
+- **David's WHOOP user_id:** 206067 (hdmunguia@gmail.com) — testing account
+- **Webhook collections:** `cadence_webhook_event` + `pacer_webhook_event` both receiving events — likely artifact of old webhook, should consolidate
+- **Oura Ring:** v2 API at cloud.ouraring.com/v2/docs (OAuth 2.0). Adds skin temp deviation, resilience score. Hannah doesn't have one yet — TBD.
+- **Gemini / OpenAI:** Neither API configured currently. David may add for Cadence analysis.
 
 ## FDB prescribableMed Naming Patterns (LTC)
 Common corrections when verifying medication names against FDB:
