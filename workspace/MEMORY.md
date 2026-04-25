@@ -85,6 +85,7 @@
 - **Figma naming convention (Apr 21):** `screen/screen-element` pattern (e.g., `dashboard/resident`, `dashboard/conditions`)
 - **Backend source:** `git@github.com:SpectatorHealth/aegis_server.git`, branch `ub24_port` (C++ + MongoDB). Routes confirmed: `/residents` (census, sorted by name/residentId, excludes inactive) + `/details` (residents + AlertLog entries with thumbnail/age/dob)
 - **Status:** Prototype delivered + backend routes being built. Next: wire prototype to aegis_mobile API.
+- **DESIGN.md (proposed Apr 24):** David suggested a shared cross-project design doc to capture design principles, color palette, component patterns, and interaction conventions in one place (vs scattered across DESIGN_CHARTER.md, MEMORY.md, and implicit HTML). Not yet created — good to do next Rounds session.
 
 ## Claude Code (Apr 18)
 - **Installed:** CLI v2.1.114 on cleo server; API keys in `~/keys` (line 1 → Anthropic, line 2 → Claude Code key)
@@ -106,7 +107,6 @@
 - Git remote: github.com/CleoSPHBot/cleo-workspace.git, daily backup at 7 AM UTC
 - **daily-backup cron:** Created 2026-04-06, runs 13:00 UTC daily, script: `bash /home2/cleo/src/cleo-backup/backup.sh`, 120s timeout, model: claude-sonnet-4-20250514
 - **Daily memory writing is working** — dream cron (13:00 UTC nightly) established 2026-04-04. Main session writing daily files consistently since 2026-04-10.
-- **Tailnet rename:** David changed machine names ~2026-04-10. New names unknown — ask next opportunity and update TOOLS.md.
 - **OpenClaw updated to 2026.4.14** (323493f, ~Apr 15). Teams desktop image attachments now working (Edgar applied fix). Prototype server running on port 8765.
 - **Brave Search API key:** Set up 2026-04-12 (Edgar added the key). Use for medical research, clinical guidelines, PubMed, patient advocacy orgs, and anything outside QB/FDB scope. Call it "Brave Search" in notes, "web search" in conversation.
 

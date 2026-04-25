@@ -43,7 +43,8 @@
       "maxConcurrent": 4,
       "subagents": {
         "maxConcurrent": 8
-      }
+      },
+      "bootstrapMaxChars": 20000
     }
   },
   "messages": {
@@ -65,10 +66,8 @@
         "port": 3979,
         "path": "/api/messages"
       },
-      "dmPolicy": "open",
-      "allowFrom": [
-        "*"
-      ],
+      "dmPolicy": "pairing",
+      "allowFrom": [],
       "groupPolicy": "allowlist",
       "blockStreaming": false
     }
