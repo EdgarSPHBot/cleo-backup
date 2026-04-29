@@ -66,10 +66,12 @@
         "port": 3979,
         "path": "/api/messages"
       },
-      "dmPolicy": "pairing",
-      "allowFrom": [],
+      "dmPolicy": "allowlist",
+      "allowFrom": [
+        "ffdc2db2-96f8-4657-b4a1-dd45ce1c53ff"
+      ],
       "groupPolicy": "allowlist",
-      "blockStreaming": false
+      "blockStreaming": true
     }
   },
   "gateway": {
