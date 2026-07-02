@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.6.8",
+    "lastTouchedAt": "2026-07-02T03:14:05.731Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-05-27T07:30:08.774Z",
+    "lastRunVersion": "2026.5.22",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "anthropic:default": {
+        "provider": "anthropic",
+        "mode": "api_key"
+      },
+      "openai:default": {
+        "provider": "openai",
+        "mode": "api_key"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "anthropic/claude-sonnet-4-6",
+        "fallbacks": [
+          "anthropic/claude-opus-4-7",
+          "anthropic/claude-opus-4-6"
+        ]
+      },
+      "workspace": "/home2/cleo/.openclaw/workspace",
+      "contextPruning": {
+        "mode": "cache-ttl",
+        "ttl": "1h"
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "heartbeat": {
+        "every": "30m"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      },
+      "bootstrapMaxChars": 20000
+    }
+  },
+  "models": {
+    "mode": "replace",
+    "providers": {
+      "anthropic": {
+        "baseUrl": "https://api.anthropic.com",
+        "auth": "api-key",
+        "models": [
+          {
+            "id": "claude-opus-4-8",
+            "name": "Claude Opus 4.8",
+            "contextWindow": 1000000,
+            "maxTokens": 128000
+          },
+          {
+            "id": "claude-opus-4-7",
+            "name": "Claude Opus 4.7",
+            "contextWindow": 1000000,
+            "maxTokens": 128000
+          },
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6",
+            "contextWindow": 1000000,
+            "maxTokens": 128000
+          },
+          {
+            "id": "claude-opus-4-5-20251101",
+            "name": "Claude Opus 4.5",
+            "contextWindow": 200000,
+            "maxTokens": 64000
+          },
+          {
+            "id": "claude-opus-4-1-20250805",
+            "name": "Claude Opus 4.1",
+            "contextWindow": 200000,
+            "maxTokens": 32000
+          },
+          {
+            "id": "claude-opus-4-20250514",
+            "name": "Claude Opus 4",
+            "contextWindow": 200000,
+            "maxTokens": 32000
+          },
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "Claude Sonnet 4.6",
+            "contextWindow": 1000000,
+            "maxTokens": 64000
+          },
+          {
+            "id": "claude-sonnet-4-5-20250929",
+            "name": "Claude Sonnet 4.5",
+            "contextWindow": 200000,
+            "maxTokens": 64000
+          },
+          {
+            "id": "claude-sonnet-4-20250514",
+            "name": "Claude Sonnet 4",
+            "contextWindow": 200000,
+            "maxTokens": 64000
+          },
+          {
+            "id": "claude-haiku-4-5-20251001",
+            "name": "Claude Haiku 4.5",
+            "contextWindow": 200000,
+            "maxTokens": 64000
+          }
+        ]
+      },
+      "openai": {
+        "baseUrl": "https://api.openai.com/v1",
+        "auth": "api-key",
+        "models": [
+          {
+            "id": "gpt-5.5",
+            "name": "GPT-5.5"
+          },
+          {
+            "id": "gpt-5.5-pro",
+            "name": "GPT-5.5 Pro"
+          },
+          {
+            "id": "gpt-5.4",
+            "name": "GPT-5.4"
+          },
+          {
+            "id": "gpt-5.4-pro",
+            "name": "GPT-5.4 Pro"
+          },
+          {
+            "id": "o3",
+            "name": "OpenAI o3",
+            "reasoning": true
+          },
+          {
+            "id": "o4-mini",
+            "name": "OpenAI o4-mini",
+            "reasoning": true
+          },
+          {
+            "id": "gpt-4.1",
+            "name": "GPT-4.1"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions",
+    "groupChat": {
+      "visibleReplies": "message_tool"
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "channels": {
+    "msteams": {
+      "enabled": true,
+      "appId": "c9eecec6-c582-4d3d-b085-e126052efbb4",
+      "appPassword": "[REDACTED_APP_PASSWORD]",
+      "tenantId": "1534fe7a-9f9f-4315-9f94-e1d2f44b7277",
+      "webhook": {
+        "port": 3979,
+        "path": "/api/messages"
+      },
+      "dmPolicy": "allowlist",
+      "allowFrom": [
+        "ffdc2db2-96f8-4657-b4a1-dd45ce1c53ff"
+      ],
+      "groupPolicy": "allowlist",
+      "blockStreaming": true,
+      "groupAllowFrom": [
+        "ffdc2db2-96f8-4657-b4a1-dd45ce1c53ff"
+      ]
+    },
+    "slack": {
+      "enabled": true,
+      "mode": "socket",
+      "botToken": "[REDACTED_SLACK_BOT_TOKEN]",
+      "appToken": "[REDACTED_SLACK_APP_TOKEN]",
+      "webhookPath": "/slack/events",
+      "dmPolicy": "allowlist",
+      "allowFrom": [
+        "U0B0TBEQW7N",
+        "U0B3BPBSUMU"
+      ],
+      "groupPolicy": "open",
+      "userTokenReadOnly": true,
+      "requireMention": true,
+      "signingSecret": "[REDACTED_SIGNING_SECRET]",
+      "typingReaction": "thinking_face",
+      "streaming": {
+        "mode": "partial",
+        "nativeTransport": true,
+        "preview": {
+          "toolProgress": true
+        }
+      },
+      "ackReaction": "eyes"
+    }
+  },
+  "gateway": {
+    "port": 18800,
+    "mode": "local",
+    "bind": "lan",
+    "controlUi": {
+      "dangerouslyAllowHostHeaderOriginFallback": true
+    },
+    "auth": {
+      "mode": "token",
+      "token": "[REDACTED_TOKEN]"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "plugins": {
+    "entries": {
+      "msteams": {
+        "enabled": true,
+        "config": {}
+      },
+      "anthropic": {
+        "enabled": true
+      },
+      "memory-core": {
+        "config": {
+          "dreaming": {
+            "enabled": true
+          }
+        },
+        "enabled": true
+      },
+      "acpx": {
+        "config": {
+          "permissionMode": "approve-all",
+          "nonInteractivePermissions": "fail"
+        },
+        "enabled": true
+      },
+      "openai": {
+        "enabled": true
+      },
+      "minimax": {
+        "enabled": false
+      },
+      "brave": {
+        "config": {
+          "webSearch": {
+            "apiKey": {
+              "source": "file",
+              "provider": "default",
+              "id": "/home2/cleo/brave_search.txt"
+            }
+          }
+        },
+        "enabled": true
+      },
+      "google": {
+        "enabled": false
+      },
+      "perplexity": {
+        "enabled": true,
+        "config": {
+          "webSearch": {
+            "apiKey": {
+              "source": "env",
+              "var": "PERPLEXITY_API_KEY"
+            }
+          }
+        }
+      },
+      "codex": {
+        "enabled": true
+      }
+    },
+    "allow": [
+      "brave",
+      "msteams",
+      "slack",
+      "anthropic",
+      "openai",
+      "memory-core",
+      "acpx",
+      "perplexity",
+      "codex"
+    ],
+    "bundledDiscovery": "compat"
+  },
+  "tools": {
+    "exec": {
+      "security": "full"
+    },
+    "web": {
+      "search": {
+        "provider": "perplexity"
+      }
+    }
+  },
+  "acp": {
+    "enabled": true,
+    "backend": "acpx",
+    "defaultAgent": "claude",
+    "allowedAgents": [
+      "claude",
+      "codex"
+    ]
+  },
+  "skills": {
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "bluebubbles": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "clawhub": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "discord": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "imsg": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "notion": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "things-mac": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "voice-call": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
+    }
+  }
+}
