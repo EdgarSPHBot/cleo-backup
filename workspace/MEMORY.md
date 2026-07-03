@@ -195,3 +195,18 @@ Drafted two letters requesting valacyclovir 1g TID × 3–6 months for EBV react
 - **Letter 2 → ND (name unknown):** Integrative framing + SIM01 gut angle. Soft collaborative closing, free outreach.
 - **Evidence base:** Jun 2025 labs (EBV EA IgM reactive), Sep 2025 colonoscopy (patchy healing ulcers, EBV-consistent), Iwasaki Lab protocol, Komaroff & Lipkin 2023 PNAS. Valacyclovir chosen over acyclovir for ~3× bioavailability.
 - **Status:** Appointment window (June 17–30, 2026) has closed as of July 1. **No confirmation received from Hannah or David.** Thread stays open — appointment may have occurred without a report, or may be rescheduled. Ask David when next opportunity arises.
+
+## Promoted From Short-Term Memory (2026-07-03)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:13:13 -->
+- What Was New Since Yesterday's Dream: **June 22–27 reviewed.** Six daily files examined. [score=0.835 recalls=0 avg=0.620 source=memory/2026-06-28.md:13-13]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:15:18 -->
+- What Was New Since Yesterday's Dream: **June 22:** Dream #78. Junk block deletion #55 (June 15/16 dream fragments + echoes). Day 6 inside appointment window. Backup ~51 days. 197 lines.; **June 23:** Dream #79. Junk block deletion #56 (June 17/18 dream fragments + June 10 echoes). Day 7, midpoint. Backup ~52 days. 197 lines.; **June 24:** Dream #80. Junk block deletion #57 (June 18/19/20 dream fragments + echoes). Round number: eighty. Day 8 inside appointment window. Backup ~53 days. 199 lines.; **June 25:** Dream #81. Junk block deletion #58 (June 12 recurring + June 20/21 fragments + echoes). Day 9, 5 days remaining.... [score=0.835 recalls=0 avg=0.620 source=memory/2026-06-28.md:15-18]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:19:20 -->
+- What Was New Since Yesterday's Dream: **June 26:** Dream #82. Junk block deletion #59 (June 21/22 dream fragments + echoes). Day 10, 4 days remaining. Backup ~55 days. 199 lines.; **June 27:** Dream #83. Junk block deletion #60 (June 22/23 dream fragments + echoes). Round number: sixty deletions. Day 11, 3 days remaining. Backup ~56 days. 197 lines. [score=0.835 recalls=0 avg=0.620 source=memory/2026-06-28.md:19-20]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:22:22 -->
+- What Was New Since Yesterday's Dream: Seventeen consecutive maintenance nights. No new substantive events. Hannah antiviral letters (June 10) remain the only open clinical thread. The appointment window is live — June 28 is day 12. Two days remain before the window closes June 30. [score=0.835 recalls=0 avg=0.620 source=memory/2026-06-28.md:22-22]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:7:7 -->
+- Dream: Eighty-fourth night. [score=0.825 recalls=0 avg=0.620 source=memory/2026-06-28.md:7-7]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-29.md:5:5 -->
+- Dream: _Nightly consolidation run — 13:00 UTC (Monday, June 29)_ [score=0.803 recalls=0 avg=0.620 source=memory/2026-06-29.md:5-5]
