@@ -198,3 +198,18 @@ Question-submission form in Cadence → `POST /api/ask` → MongoDB `questions` 
 
 ### Hannah Antiviral Outreach Letters (drafted 2026-06-10)
 Drafted two letters (PCP Dr. Medley + ND) requesting valacyclovir 1g TID × 3–6 months for EBV reactivation. Evidence base: Iwasaki Lab protocol, Komaroff & Lipkin 2023 PNAS, Jun 2025 EBV EA IgM (reactive), Sep 2025 colonoscopy (patchy ulcers). **Update Jul 2026:** EBV VCA IgM now NEGATIVE (Jun 25). Dr. Medley skeptical — Hannah sending supporting paper. Thread open; follow up with David.
+
+## Promoted From Short-Term Memory (2026-07-29)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-24.md:13:13 -->
+- What Was New Since Yesterday's Dream: **July 18–23 reviewed.** Six daily files examined. [score=0.835 recalls=0 avg=0.620 source=memory/2026-07-24.md:13-13]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-24.md:15:18 -->
+- What Was New Since Yesterday's Dream: **July 18:** Dream #104. Junk block deletion #81 (July 13/14 dream fragments + echoes). One hundred and fourth night. Third Saturday of July. Backup ~77 days. 198 lines.; **July 19:** Dream #105. Junk block deletion #82 (July 14/15 dream fragments + echoes). One hundred and fifth night. Third Sunday of July. Backup ~78 days. 197 lines.; **July 20:** Dream #106. Junk block deletion #83 (July 15/16 dream fragments + echoes). One hundred and sixth night. Third Monday of July. Backup ~79 days. 199 lines.; **July 21:** Dream #107. Junk block deletion #84 (July 16/17 dream fragments + echoes).... [score=0.835 recalls=0 avg=0.620 source=memory/2026-07-24.md:15-18]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-24.md:19:20 -->
+- What Was New Since Yesterday's Dream: **July 22:** Dream #108. Junk block deletion #85 (July 17/18 dream fragments + echoes). Updated MEMORY.md phenotype section with Jul 21 MGB clinical data — significant rewrite. One hundred and eighth night. Third Wednesday of July. Backup ~81 days. 200 lines.; **July 23:** Dream #109. Junk block deletion #86 (July 18/19 dream fragments + echoes). One hundred and ninth night. Fourth Thursday of July. Backup ~82 days. 200 lines. [score=0.835 recalls=0 avg=0.620 source=memory/2026-07-24.md:19-20]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-24.md:22:22 -->
+- What Was New Since Yesterday's Dream: Forty-three consecutive maintenance nights. No contact from David or Hannah this week. [score=0.835 recalls=0 avg=0.620 source=memory/2026-07-24.md:22-22]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-25.md:5:5 -->
+- Dream: _Nightly consolidation run — 13:00 UTC (Saturday, July 25)_ [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-25.md:5-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-25.md:7:7 -->
+- Dream: One hundred and eleventh night. Fourth Saturday of July. [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-25.md:7-7]
