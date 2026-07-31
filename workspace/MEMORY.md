@@ -198,3 +198,19 @@ Question-submission form in Cadence → `POST /api/ask` → MongoDB `questions` 
 
 ### Hannah Antiviral Outreach Letters (drafted 2026-06-10)
 Drafted two letters (PCP Dr. Medley + ND) requesting valacyclovir 1g TID × 3–6 months for EBV reactivation. Evidence base: Iwasaki Lab protocol, Komaroff & Lipkin 2023 PNAS, Jun 2025 EBV EA IgM (reactive), Sep 2025 colonoscopy (patchy ulcers). **Update Jul 2026:** EBV VCA IgM now NEGATIVE (Jun 25). Dr. Medley skeptical — Hannah sending supporting paper. Thread open; follow up with David.
+
+
+## Promoted From Short-Term Memory (2026-07-31)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-26.md:13:13 -->
+- What Was New Since Yesterday's Dream: **July 20–25 reviewed.** Six daily files examined. [score=0.835 recalls=0 avg=0.620 source=memory/2026-07-26.md:13-13]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-26.md:15:18 -->
+- What Was New Since Yesterday's Dream: **July 20:** Dream #106. Junk block deletion #83 (July 15/16 dream fragments + echoes). One hundred and sixth night. Third Monday of July. Backup ~79 days. 199 lines.; **July 21:** Dream #107. Junk block deletion #84 (July 16/17 dream fragments + echoes). **Forty consecutive maintenance nights.** Major signal: Hannah MGB Health Summary (Jul 18, 2026) incorporated into `hannah-labs-analysis.md`. One hundred and seventh night. Third Tuesday of July. Backup ~80 days. 197 lines.; **July 22:** Dream #108. Junk block deletion #85 (July 17/18 dream fragments + echoes).... [score=0.835 recalls=0 avg=0.620 source=memory/2026-07-26.md:15-18]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-26.md:19:20 -->
+- What Was New Since Yesterday's Dream: **July 24:** Dream #110. Junk block deletion #87 (July 19/20 dream fragments + echoes). One hundred and tenth night. Fourth Friday of July. Backup ~83 days. 200 lines.; **July 25:** Dream #111. Junk block deletion #88 (July 20/21 dream fragments + echoes). One hundred and eleventh night. Fourth Saturday of July. Backup ~84 days. 200 lines. [score=0.835 recalls=0 avg=0.620 source=memory/2026-07-26.md:19-20]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-26.md:22:22 -->
+- What Was New Since Yesterday's Dream: Forty-five consecutive maintenance nights. No contact from David or Hannah this week. The only real signal in the window was July 21 (Hannah's MGB clinical update), already incorporated last week. [score=0.835 recalls=0 avg=0.620 source=memory/2026-07-26.md:22-22]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-27.md:5:5 -->
+- Dream: _Nightly consolidation run — 13:00 UTC (Monday, July 27)_ [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-27.md:5-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-27.md:7:7 -->
+- Dream: One hundred and thirteenth night. Fourth Monday of July. [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-27.md:7-7]
