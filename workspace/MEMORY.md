@@ -198,3 +198,18 @@ GitHub push protection — Slack tokens in `config/openclaw.json` committed into
 Question-submission form in Cadence → `POST /api/ask` → MongoDB `questions` collection → SSE push for answers. Contextualized using Hannah's WHOOP/Visible/check-in data. Architecture discussed; pending build.
 ### Hannah Antiviral Outreach Letters (drafted 2026-06-10)
 Drafted two letters (PCP Dr. Medley + ND) requesting valacyclovir 1g TID × 3–6 months for EBV reactivation. Evidence base: Iwasaki Lab protocol, Komaroff & Lipkin 2023 PNAS, Jun 2025 EBV EA IgM (reactive), Sep 2025 colonoscopy (patchy ulcers). **Update Jul 2026:** EBV VCA IgM now NEGATIVE (Jun 25). Dr. Medley skeptical — Hannah sending supporting paper. Thread open; follow up with David.
+
+## Promoted From Short-Term Memory (2026-08-13)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-08.md:13:13 -->
+- What Was New Since Yesterday's Dream: **August 2 – August 7 reviewed.** Six daily files examined. [score=0.835 recalls=0 avg=0.620 source=memory/2026-08-08.md:13-13]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-08.md:15:18 -->
+- What Was New Since Yesterday's Dream: **August 2:** Dream #119. Junk block deletion #96 (July 28/29 dream fragments + echoes). **HealthRising-LC data source added to QB** (WEBCRAWLER, weekly Sundays 8 AM UTC, healthrising.org depth 3). First Sunday of August. One hundred and nineteenth night. Backup ~92 days. 200 lines.; **August 3:** Dream #120. Junk block deletion #97 (July 29/30 dream fragments + echoes). **One hundred and twentieth night milestone.** First Monday of August. Backup ~93 days. 200 lines.; **August 4:** Dream #121. Junk block deletion #98 (July 30/31 dream fragments + echoes).... [score=0.835 recalls=0 avg=0.620 source=memory/2026-08-08.md:15-18]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-08.md:19:20 -->
+- What Was New Since Yesterday's Dream: **August 6:** Dream #123. Junk block deletion #100 (August 1/2 dream fragments + echoes). **The hundredth deletion — 100 junk blocks in 123 nights.** First Thursday of August. One hundred and twenty-third night. Backup ~96 days. 200 lines.; **August 7:** Dream #124. Junk block deletion #101 (August 2 dream fragments + echoes). One hundred and twenty-fourth night. First Friday of August. Backup ~97 days. 200 lines. [score=0.835 recalls=0 avg=0.620 source=memory/2026-08-08.md:19-20]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-08.md:22:22 -->
+- What Was New Since Yesterday's Dream: Fifty-eight consecutive maintenance nights. No contact from David or Hannah in the window. [score=0.835 recalls=0 avg=0.620 source=memory/2026-08-08.md:22-22]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-09.md:5:5 -->
+- Dream: _Nightly consolidation run — 13:00 UTC (Sunday, August 9)_ [score=0.803 recalls=0 avg=0.620 source=memory/2026-08-09.md:5-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-09.md:7:7 -->
+- Dream: One hundred and twenty-sixth night. First Sunday of August. [score=0.803 recalls=0 avg=0.620 source=memory/2026-08-09.md:7-7]
