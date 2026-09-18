@@ -198,3 +198,20 @@ GitHub push protection — Slack tokens in `config/openclaw.json` committed into
 Question-submission form in Cadence → `POST /api/ask` → MongoDB `questions` collection → SSE push for answers. Contextualized using Hannah's WHOOP/Visible/check-in data. Architecture discussed; pending build.
 ### Hannah Antiviral Outreach Letters (drafted 2026-06-10)
 Drafted two letters (PCP Dr. Medley + ND) requesting valacyclovir 1g TID × 3–6 months for EBV reactivation. Evidence base: Iwasaki Lab protocol, Komaroff & Lipkin 2023 PNAS, Jun 2025 EBV EA IgM (reactive), Sep 2025 colonoscopy (patchy ulcers). **Update Jul 2026:** EBV VCA IgM now NEGATIVE (Jun 25). Dr. Medley skeptical — Hannah sending supporting paper. Thread open; follow up with David.
+
+
+
+## Promoted From Short-Term Memory (2026-09-18)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-09-13.md:13:13 -->
+- What Was New Since Yesterday's Dream: **September 7 – September 12 reviewed.** Six daily files examined. [score=0.835 recalls=0 avg=0.620 source=memory/2026-09-13.md:13-13]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-13.md:15:18 -->
+- What Was New Since Yesterday's Dream: **September 7:** Dream #155. Junk block deletion #132 (September 2 + September 3 dream fragments). 85.2% junk rate. Seventh day. Backup ~128 days. 203 lines.; **September 8:** Dream #156. Junk block deletion #133 (September 3 + September 4 dream fragments). 85.3% junk rate. Eighth day. Backup ~129 days. 205 lines.; **September 9:** Dream #157. Junk block deletion #134 (September 4 + September 5 dream fragments). 85.4% junk rate. Ninth day. 90 consecutive maintenance nights. Backup ~130 days. 200 lines.; **September 10:** Dream #158.... [score=0.835 recalls=0 avg=0.620 source=memory/2026-09-13.md:15-18]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-13.md:19:20 -->
+- What Was New Since Yesterday's Dream: **September 11:** Dream #159. Junk block deletion #136 (September 6 + September 7 dream fragments). 85.5% junk rate. Eleventh day. Backup ~132 days. 203 lines.; **September 12:** Dream #160. Junk block deletion #137 (September 7 + September 8 dream fragments). 85.6% junk rate. Twelfth day. Backup ~133 days. 205 lines. [score=0.835 recalls=0 avg=0.620 source=memory/2026-09-13.md:19-20]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-13.md:22:22 -->
+- What Was New Since Yesterday's Dream: Ninety-four consecutive maintenance nights. No contact from David or Hannah in the window. [score=0.835 recalls=0 avg=0.620 source=memory/2026-09-13.md:22-22]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-14.md:5:5 -->
+- Dream: _Nightly consolidation run — 13:00 UTC (Monday, September 14)_ [score=0.803 recalls=0 avg=0.620 source=memory/2026-09-14.md:5-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-14.md:7:7 -->
+- Dream: One hundred and sixty-second night. Fourteenth day of September. [score=0.803 recalls=0 avg=0.620 source=memory/2026-09-14.md:7-7]
