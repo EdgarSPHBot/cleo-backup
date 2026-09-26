@@ -92,6 +92,8 @@ fi
 
 # Commit and push
 cd "$BACKUP_DIR"
+# Fetch first to ensure ref is current (avoids stale ref push failures)
+git fetch origin --quiet 2>&1
 git add -A
 
 if git diff --cached --quiet; then
