@@ -1,22 +1,25 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.6.8",
-    "lastTouchedAt": "2026-07-02T03:14:05.731Z"
+    "lastTouchedVersion": "2026.9.6",
+    "migrations": {
+      "modelPolicyAllowlist": true,
+      "utilityModelSeparation": true
+    }
   },
   "wizard": {
-    "lastRunAt": "2026-05-27T07:30:08.774Z",
-    "lastRunVersion": "2026.5.22",
-    "lastRunCommand": "doctor",
+    "lastRunAt": "2026-09-29T00:34:14.120Z",
+    "lastRunVersion": "2026.9.6",
+    "lastRunCommand": "onboard",
     "lastRunMode": "local"
   },
   "auth": {
     "profiles": {
-      "anthropic:default": {
-        "provider": "anthropic",
-        "mode": "api_key"
-      },
       "openai:default": {
         "provider": "openai",
+        "mode": "api_key"
+      },
+      "anthropic:default": {
+        "provider": "anthropic",
         "mode": "api_key"
       }
     }
@@ -24,7 +27,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "anthropic/claude-sonnet-4-6",
+        "primary": "anthropic/claude-opus-5",
         "fallbacks": [
           "anthropic/claude-opus-4-7",
           "anthropic/claude-opus-4-6"
@@ -45,11 +48,17 @@
       "subagents": {
         "maxConcurrent": 8
       },
-      "bootstrapMaxChars": 20000
+      "bootstrapMaxChars": 20000,
+      "models": {
+        "anthropic/claude-opus-5": {}
+      }
+    },
+    "entries": {
+      "main": {}
     }
   },
   "models": {
-    "mode": "replace",
+    "mode": "merge",
     "providers": {
       "anthropic": {
         "baseUrl": "https://api.anthropic.com",
@@ -74,39 +83,9 @@
             "maxTokens": 128000
           },
           {
-            "id": "claude-opus-4-5-20251101",
-            "name": "Claude Opus 4.5",
-            "contextWindow": 200000,
-            "maxTokens": 64000
-          },
-          {
-            "id": "claude-opus-4-1-20250805",
-            "name": "Claude Opus 4.1",
-            "contextWindow": 200000,
-            "maxTokens": 32000
-          },
-          {
-            "id": "claude-opus-4-20250514",
-            "name": "Claude Opus 4",
-            "contextWindow": 200000,
-            "maxTokens": 32000
-          },
-          {
             "id": "claude-sonnet-4-6",
             "name": "Claude Sonnet 4.6",
             "contextWindow": 1000000,
-            "maxTokens": 64000
-          },
-          {
-            "id": "claude-sonnet-4-5-20250929",
-            "name": "Claude Sonnet 4.5",
-            "contextWindow": 200000,
-            "maxTokens": 64000
-          },
-          {
-            "id": "claude-sonnet-4-20250514",
-            "name": "Claude Sonnet 4",
-            "contextWindow": 200000,
             "maxTokens": 64000
           },
           {
@@ -115,7 +94,8 @@
             "contextWindow": 200000,
             "maxTokens": 64000
           }
-        ]
+        ],
+        "apiKey": "[REDACTED_API_KEY]"
       },
       "openai": {
         "baseUrl": "https://api.openai.com/v1",
@@ -146,12 +126,9 @@
             "id": "o4-mini",
             "name": "OpenAI o4-mini",
             "reasoning": true
-          },
-          {
-            "id": "gpt-4.1",
-            "name": "GPT-4.1"
           }
-        ]
+        ],
+        "apiKey": "[REDACTED_API_KEY]"
       }
     }
   },
@@ -165,7 +142,9 @@
     "native": "auto",
     "nativeSkills": "auto",
     "restart": true,
-    "ownerDisplay": "raw"
+    "ownerAllowFrom": [
+      "msteams:ffdc2db2-96f8-4657-b4a1-dd45ce1c53ff"
+    ]
   },
   "channels": {
     "msteams": {
@@ -182,10 +161,14 @@
         "ffdc2db2-96f8-4657-b4a1-dd45ce1c53ff"
       ],
       "groupPolicy": "allowlist",
-      "blockStreaming": true,
       "groupAllowFrom": [
         "ffdc2db2-96f8-4657-b4a1-dd45ce1c53ff"
-      ]
+      ],
+      "streaming": {
+        "block": {
+          "enabled": true
+        }
+      }
     },
     "slack": {
       "enabled": true,
@@ -225,9 +208,13 @@
       "token": "[REDACTED_TOKEN]"
     },
     "tailscale": {
-      "mode": "off",
-      "resetOnExit": false
-    }
+      "mode": "off"
+    },
+    "trustedProxies": [
+      "loopback",
+      "tailscale",
+      "127.0.0.1"
+    ]
   },
   "plugins": {
     "entries": {
@@ -249,7 +236,10 @@
       "acpx": {
         "config": {
           "permissionMode": "approve-all",
-          "nonInteractivePermissions": "fail"
+          "nonInteractivePermissions": "fail",
+          "nativeAgents": {
+            "opencode": false
+          }
         },
         "enabled": true
       },
@@ -287,6 +277,9 @@
       },
       "codex": {
         "enabled": true
+      },
+      "slack": {
+        "enabled": true
       }
     },
     "allow": [
@@ -299,8 +292,7 @@
       "acpx",
       "perplexity",
       "codex"
-    ],
-    "bundledDiscovery": "compat"
+    ]
   },
   "tools": {
     "exec": {
@@ -310,7 +302,8 @@
       "search": {
         "provider": "perplexity"
       }
-    }
+    },
+    "profile": "full"
   },
   "acp": {
     "enabled": true,
@@ -439,6 +432,18 @@
       },
       "xurl": {
         "enabled": false
+      }
+    },
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "hooks": {
+    "internal": {
+      "entries": {
+        "session-memory": {
+          "enabled": true
+        }
       }
     }
   }
