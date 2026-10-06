@@ -36,7 +36,7 @@ Edgar set me up (2026-03-24/25) — senior agent, handles infra and general task
 - **Dashboard:** SSH tunnel `ssh -L 18800:127.0.0.1:18800 100.70.3.21` → http://localhost:18800
 - **Edgar's gateway:** Port 18789 (same server)
 - **Git remote:** github.com/CleoSPHBot/cleo-workspace.git
-- **OpenClaw version:** 2026.9.6 (upgraded 2026-09-29 from 2026.5.22)
+- **OpenClaw version:** 2026.9.8 (fc23bc8) — verified 2026-10-06. Was 2026.9.6 on 2026-09-29 (upgraded from 2026.5.22).
 - **`models.mode` = `merge`** (fixed 2026-09-29; was `replace`, which discarded built-in catalog — models refresh appeared to succeed but nothing changed). After fix: 15→27 models, `claude-sonnet-5` + `claude-opus-5` (now default) visible. **Lesson: if refresh "succeeds" but nothing changes, check `models.mode` first.**
 - **`openclaw setup` is the onboarding wizard**, not a model manager. Hangs without TTY. Use `openclaw models list` / Control UI → Models.
 - **Daily backup cron:** 13:00 UTC, `bash /home2/cleo/src/cleo-backup/backup.sh`, 120s timeout. **Working again (verified 2026-09-29/30):** 13:00 UTC OpenClaw automation `daily-backup` pushes to `github-backup:EdgarSPHBot/cleo-backup.git` (repo `~/src/cleo-backup`). Separate crontab job at 07:00 UTC commits+pushes `~/.openclaw/workspace`. Quirks: the 13:00 run produces several commits per run instead of one, and the automation shows `error` because its announce delivery has no route (the backup itself succeeds). **Workspace backup broken ~155 days** (see Open Issues).
